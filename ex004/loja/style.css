@@ -1,0 +1,166 @@
+* {box-sizing: border-box;}
+
+body { 
+margin: 0px 0px 0px 0px;
+font-family: Arial, Helvetica, sans-serif;
+background-color:#151414 ;
+color: white;
+}
+
+
+.header-right {
+float: right;
+}
+
+h1 {
+margin: 0px 0px;
+padding: 30px; 
+text-align: justify;
+border: 40px;
+}
+
+p {
+
+    margin: 0px 0px;
+    padding: 30px; 
+    text-align: justify;
+
+}
+
+.header {
+overflow: hidden;
+background-color: #3C7261;
+padding: 5px 5px;
+list-style: none;
+color: white;
+}
+
+.header a {
+float: left;
+color: white;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+
+.header a.logo {
+font-size: 25px;
+font-weight: bold;
+}
+
+.header a:hover {
+background-color:white;
+color: black;
+}
+
+.header a.active {
+background-color: dodgerblue;
+color: white;
+}
+
+@media screen and (max-width: 500px) {
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+
+.header-right {
+float: none;
+}
+}
+
+main {
+    background-color: #151414;
+    padding-left: 0px ;
+    display: inline-block;
+}
+
+.maintext {
+text-indent: 20px;
+padding: 15px 0px 10px 100px;
+margin: 25px;
+}
+
+footer {
+background-color: #3C7261;
+margin-top: 200px;
+
+}
+
+
+img {
+float: left;
+margin-left: -30px;
+margin-top: 50px;
+}
+
+#prim {
+padding-bottom: 350px;
+}
+
+.post {
+padding: 25px;
+margin-right: 0px;
+margin-top:50px ;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+form input,
+form textarea,
+form button {
+        display: block;
+        width: 320px;
+        margin-left: 750px;
+        margin-bottom: 8px;
+        padding: 8px;
+}
+
+form textarea {
+        resize: none;
+        height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    
+}
+
+form button {
+    background-color: #3C7261;
+    color: #ecf0f1;    
+    border: none;
+    cursor: pointer;
+    
+}
+
+form button:hover {
+    background-color: #388668;
+}
+
+#formtxt {
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+li {
+    display: inline-block;
+    padding: 16px;
+}
+
+#fl1 {
+    padding-left: 790px;
+}
+
+#fl2 {
+    padding-left: 450px;
+}
