@@ -67,6 +67,10 @@ h2{
     color: white;
 }
 
+h3#fl2 {
+    padding: auto;
+}
+
 header a {
     font-family: var(--font-destaque);
 }
@@ -95,8 +99,6 @@ main {
 nav {
     padding: 3px;
     border-radius: 5px;
-
-
 }
 
 nav > a {
@@ -187,4 +189,68 @@ footer a {
 footer > p {
     margin: 0px;
     background-color: #1a3029;
+}
+
+
+
+form input,
+form textarea,
+form button {
+        display: block;
+        width: 320px;
+        margin-left: 750px;
+        margin-bottom: 8px;
+        padding: 8px;
+}
+
+form textarea {
+        resize: none;
+        height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    
+}
+
+form button {
+    background-color: #3C7261;
+    color: #ecf0f1;    
+    border: none;
+    cursor: pointer;
+    margin:10px 0px 10px 760px
+}
+
+form button:hover {
+    background-color: #388668;
+}
+
+#formtxt {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+li {
+    display: inline-block;
+    padding: 16px;
+}
+
+#fl1 {
+    padding-left: 790px;
+}
+
+#fl2 {
+    padding-left: 450px;
+}
+h3#fl2 {
+    padding: 0px 0px 0px 130px;
+}
+
+ul#icon {
+    display: inline-block;
+    margin: auto;
+    padding: 0px 0px 0px 87px;
+    float: left;
 }
