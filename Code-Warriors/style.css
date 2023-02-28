@@ -65,6 +65,7 @@ h2{
     border-top-right-radius: 5px;
     margin-bottom: 0px;padding: 0px;
     color: white;
+    padding: 10px;
 }
 
 h3#fl2 {
@@ -198,7 +199,7 @@ form textarea,
 form button {
         display: block;
         width: 320px;
-        margin-left: 750px;
+        margin-left: 500px;
         margin-bottom: 8px;
         padding: 8px;
 }
@@ -232,13 +233,13 @@ form button:hover {
 }
 
 
-li {
-    display: inline-block;
+li {    
     padding: 16px;
 }
 
+
 #fl1 {
-    padding-left: 790px;
+    padding-left: 500px;
 }
 
 #fl2 {
@@ -253,4 +254,9 @@ ul#icon {
     margin: auto;
     padding: 0px 0px 0px 87px;
     float: left;
+    
+}
+
+li::marker {
+    color: rgba(0, 0, 0,0.0);
 }
