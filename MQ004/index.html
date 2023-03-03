@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        body  {
+            background-color: rgb(48, 48, 48);
+        }
+
+        header {
+            background-color: gray;
+        }
+
+        header > h1 {
+            padding: 10px;
+            text-align: center;
+        }
+
+        menu {
+            display: block;
+        }
+
+        menu > ul  {
+            list-style-type: none;
+        }
+
+        menu a:hover {
+            background-color: rgb(60,60,60);
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            background-color: rgb(85, 84, 84);
+            color: rgb(255, 255, 255);
+            border-top: 2px solid black;
+        }
+
+        main {
+            margin: auto;
+            padding: 50px;
+        }
+        article {
+            color: black;
+            border-radius:15px ;
+            display: block;
+            margin-left: 150px;
+            margin-right: 150px;
+            padding-left:100px;
+            padding-right:100px;
+            background-color: rgb(180, 176, 176);
+            margin-bottom: 60px;
+            box-shadow: 3px 3px 23px black;
+        } 
+        
+        p {
+            padding-bottom: 10px;
+            text-align: justify;
+            text-indent: 35px;
+            font-weight: 1000;
+            font-size: large;
+            text-shadow: 2px 2  px 10px rgb(188, 188, 188);
+        }
+
+        article > h2 {
+            padding-top: 20px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+
+        .source {
+            text-indent: none;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprendendo JavaScript </h1>
+        <menu>
+            <ul>
+                <li><a href="#">Aula 02 - em breve</a></li>
+                <li><a href="#">Aula 03 - em breve</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Comentários</h2>
+                <p>
+                    A sintaxe básica do JavaScript é como a gramática que usamos para escrever frases e histórias. É um conjunto de regras que precisamos seguir para que o nosso código seja entendido pelo computador.
+                    Uma das coisas mais importantes na sintaxe do JavaScript é o uso de comentários. Comentários são trechos de texto que escrevemos no nosso código para explicar o que estamos fazendo. Eles são muito úteis quando outras pessoas precisam ler o nosso código, ou até mesmo para nos lembrarmos do que fizemos quando voltamos a trabalhar em um projeto depois de algum tempo.
+                </p><br>
+
+                <p>Para escrever um comentário no JavaScript, basta colocar duas barras (//) antes do texto que queremos comentar. Por exemplo:</p>
+
+                <p class="source">// Esse é um comentário em JavaScript</p><br>
+
+
+                <p>Outra coisa importante na sintaxe do JavaScript são as variáveis. As variáveis são como caixinhas onde podemos guardar informações que vamos usar mais tarde no nosso código. Para criar uma variável, usamos a palavra-chave "var", seguida pelo nome que queremos dar à variável e pelo valor que queremos atribuir a ela. Por exemplo:</p><br>
+
+                <p class="source">
+                    var idade = 10;
+                </p>
+                <p>
+                    Nesse exemplo, criamos uma variável chamada "idade" e atribuímos o valor 10 a ela. Podemos usar essa variável mais tarde no nosso código, por exemplo, para fazer um cálculo.
+                </p><br>
+
+                <p>Existem diferentes tipos de dados que podemos armazenar em uma variável, como números, texto e valores booleans (verdadeiro ou falso). Cada tipo de dado é representado de uma maneira diferente na sintaxe do JavaScript. Por exemplo:</p><br>
+
+
+
+                    <p class="source">var nome = "Ana";</p><br>
+                    <p class="source">var idade = 10;</p><br>
+                    <p class="source">var estudante = true;</p><br>
+                    <p>
+                    Nesse exemplo, criamos três variáveis: "nome", que armazena um texto; "idade", que armazena um número; e "estudante", que armazena um valor booleano.
+                </p> <br>
+
+                <p>Por fim, também precisamos entender os operadores na sintaxe do JavaScript. Os operadores são símbolos que usamos para fazer cálculos e comparações com as variáveis que criamos. Por exemplo:</p><br>
+
+                <p class="source">
+                    var x = 5;
+                    var y = 10;
+                    var z = x + y;
+                </p><br>
+                <p>
+                    Nesse exemplo, criamos duas variáveis, "x" e "y", e depois criamos uma terceira variável, "z", que armazena o resultado da soma entre "x" e "y". O operador de soma é o símbolo "+". Além disso, existem outros operadores, como "-", "*", "/" e "%", que usamos para fazer diferentes tipos de cálculos.
+                </p><br>
+
+                <p>Esses são alguns dos principais elementos da sintaxe básica do JavaScript. Com eles, podemos começar a criar códigos simples e entender como as coisas funcionam na programação.</p><br>
+
+        </article>
+    </main>
+</body>
+</html>
