@@ -4,99 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            font-family: 'Courier New', Courier, monospace;
-
-        }
-
-        body  {
-            background-color: rgb(48, 48, 48);
-        }
-
-        header {
-            background-color: gray;
-        }
-
-        header > h1 {
-            padding: 10px;
-            text-align: center;
-        }
-
-        menu {
-            display: block;
-        }
-
-        menu > ul  {
-            list-style-type: none;
-        }
-
-        menu a:hover {
-            background-color: rgb(60,60,60);
-        }
-
-        a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            text-align: center;
-            background-color: rgb(85, 84, 84);
-            color: rgb(255, 255, 255);
-            border-top: 2px solid black;
-        }
-
-        main {
-            margin: auto;
-            padding: 50px;
-        }
-        article {
-            color: black;
-            border-radius:15px ;
-            display: block;
-            margin-left: 150px;
-            margin-right: 150px;
-            padding-left:100px;
-            padding-right:100px;
-            background-color: rgb(180, 176, 176);
-            margin-bottom: 60px;
-            box-shadow: 3px 3px 23px black;
-        } 
-        
-        p {
-            padding-bottom: 10px;
-            text-align: justify;
-            text-indent: 35px;
-            font-weight: 1000;
-            font-size: large;
-            text-shadow: 2px 2  px 10px rgb(188, 188, 188);
-        }
-
-        article > h2 {
-            padding-top: 20px;
-            padding-bottom: 60px;
-            text-align: center;
-        }
-
-        .source {
-            text-indent: none;
-            background-color: black;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            font-size: small;
-        }
-    </style>
+    <title>Aprendendo javaScript de forma simples</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
-        <h1>Aprendendo JavaScript </h1>
-        <menu>
+        <h1>Aprendendo JavaScript - 01 </h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Aula 02 - em breve</a></li>
                 <li><a href="#">Aula 03 - em breve</a></li>
+                <li><a href="#">Aula 04 - em breve</a></li>
+                <li><a href="#">Aula 05 - em breve</a></li>
+                <li><a href="#">Aula 06 - em breve</a></li>
             </ul>
         </menu>
     </header>
@@ -148,5 +70,14 @@
 
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display=='block') {
+            itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
